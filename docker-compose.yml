@@ -18,7 +18,7 @@ proxy:
 nodered:
   image: beevelop/node-red
   environment:
-    - VIRTUAL_HOST=nodered.example.com
+    - VIRTUAL_HOST=35.233.128.209
     - VIRTUAL_PORT=1880
   expose:
     - "1880"
